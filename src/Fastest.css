@@ -1,0 +1,135 @@
+
+.fastest-container{
+    background-color: black;
+    color: white;
+    height: 150vh;
+    width: 100%;
+    position: relative;
+}
+.eco-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 2rem;
+}
+.exp-btn{
+    margin-top: 3rem;
+    border-radius: 25px;
+    padding: 1rem 3rem;
+    background-color: #ee82ee;
+}
+.fastest-video{
+    height: 80vh;
+    width: 75%;
+    margin: 0 2rem;
+}
+span h1{
+    font-size: 2rem;
+    font: bold;
+}
+.cube{
+ 
+   top: 16rem;
+   right: 12rem;
+   display: flex;
+   position: absolute;
+   height: 50vh;
+   width: 50vh;
+   transform-style: preserve-3d;
+   transform: rotateX(-20deg);
+   color: black;
+}
+.Face{
+    position: absolute;
+  width: 25rem;
+  height: 10rem;
+  background-color: #1aff8c;
+ 
+ 
+}
+.Front{
+    transform: translateZ(150px );
+    padding-left: 0.5rem;
+    border-radius: 10px;
+    
+}
+.Top{
+    transform: rotateX(88deg) translateZ(50px);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(79,191,117,0.9838060224089635) 49%, rgba(26,255,140,1) 100%);
+
+}
+.watch-btn{
+    margin-top: 0.5rem;
+    border-radius: 25px;
+    padding: 1rem;
+    background-color:black;
+    color: white;
+    width: 10rem;
+    
+}
+
+
+@media (max-width: 752px){
+
+   .Face{
+    width: 13rem;
+    height: 5rem;
+
+   }
+   .exp-btn{
+    margin-top: 1rem;
+    border-radius: 25px;
+    padding: 0.2rem 1rem;
+    background-color: #ee82ee;
+
+   }
+   .fastest-container{
+    font-size: 12px;
+   }
+   .cube{
+    right: -12rem;
+    top: 22rem;
+  
+   }
+   .eco-div{
+    display: flex;
+    flex-direction: column;
+   }
+   .Front{
+    transform: translateZ(50px );
+    height: 10rem;
+  
+    
+}
+.Top{
+    transform: rotateX(70deg) translateZ(50px);
+   
+
+}
+   
+   }
+/* 
+
+.cube div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    border: 2px solid white;
+}
+.Front{
+    background-color: red;
+    transform: translateZ(100px);
+    
+}
+.Back{
+    background-color: violet;
+    transform: translateY(-100px);
+}
+.Left{
+    background-color: gray;
+    transform: rotateY(90deg) translateY(100px);
+}
+.Right{
+    background-color: blue;
+    transform: rotateY(-90deg ) translateY(100px);
+} */

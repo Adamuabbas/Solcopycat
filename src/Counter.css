@@ -1,0 +1,32 @@
+.counter-divs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+    
+ 
+
+}
+
+.div-item{
+    border: 1px  black;
+    padding: 2rem 1rem;
+    background-color:  #1aff8c;
+    width: 30%;
+    height: 7rem;
+    
+   
+   
+}
+@media (max-width: 752px){
+
+    .counter-divs{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .div-item{
+        width: 100%;
+        border-style: solid;
+    }
+}

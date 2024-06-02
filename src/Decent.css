@@ -1,0 +1,180 @@
+.Decent-content{
+    height: 170vh;
+    width: 100%;
+    position: relative;
+    background-color: black;
+
+}
+.decent-img{
+    height: 50vh;
+    width: 100%; 
+}
+.unstop-div{
+    color: white;
+    position: absolute;
+    top: 4rem;
+    left: 2rem;    
+}
+.box-div{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+.box-span{
+    padding: 1rem ;
+   
+    background-color: red;
+    height: 35vh;
+    width: 43vw;
+    border-radius: 10px;
+    opacity: 0.5;
+    transform: scale(0.9);
+}
+.box-span-1{
+    background-color: violet;
+    transform: scale(0.55);
+      
+    opacity: 0.4;
+    
+}
+.box-span-2{
+    background-color: #1aff8c;
+    transform: scale(0.55);
+      
+    opacity: 0.4;
+}
+.decen-cube{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+    margin-top: 100px;
+    height: 40vh;
+    width: 100%;
+    transform-style: preserve-3d;
+    transform: rotateX(20deg);
+
+}
+.face{
+    
+    position: absolute;
+    width: 92vw;
+    height: 30vh;
+}
+.face-front{
+  
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem ;
+    transform:rotateX(22deg) translateZ(150px );
+    background-color: #2fdbde;
+    border-radius: 6px;
+
+    
+    
+    
+    
+}
+.face-bottom{
+    transform: rotateX(100deg)  translateZ(50px);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(47,219,222,0.9838060224089635) 49%, rgba(17,216,224,1) 100%);
+    
+   
+    
+    
+   
+ 
+
+}
+.animateClass{
+    animation-duration: 5s;
+    animation-name: animate-cubes;
+    animation: animate-cubes 1s ease-in-out 1ms forwards;
+
+}
+@keyframes animate-cubes{
+    0%{
+        transform: scale(0.95);
+      
+        opacity: 0.6;
+
+    }
+    100%{
+       
+        opacity: 1;
+        transform: scale(1);
+       
+    }
+    
+    
+    
+}
+
+@media (max-width: 752px){
+
+    .box-div{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        width: 100%;
+        align-items: center;
+      
+      
+    }
+    .box-span{
+        font-size: 10px;
+        height: 35vh;
+        width: 60vw;
+     
+       }
+       .decen-btn{
+         padding: 0.1rem 0.3rem;
+         border-radius: 25px;
+         margin: 0.1rem 0;
+       }
+}
+/* @media (max-width: 752px){
+    .box-div{
+        flex-wrap: wrap;
+    }
+ 
+  } */
+
+/* .animateClass2{
+    animation-duration: 5s;
+    animation-name: animate-cubes2;
+    animation: animate-cubes2 1s ease-in-out 1ms forwards;
+
+}
+@keyframes animate-cubes2{
+    0%{
+        transform: scale(0.95);
+      
+        
+    }
+    100%{
+       
+      
+        transform: scale(1);
+       
+    }
+    
+    
+    
+} */
+
+
+.decen-btn{
+ background-color: rgb(25, 21, 21);
+ 
+  color: white;
+  padding: 0.3rem 1rem;
+  border-radius: 25px;
+  margin: 0.5rem 0;
+
+  
+  
+}

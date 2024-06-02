@@ -1,0 +1,89 @@
+
+/* .container{
+   
+    perspective: 1000px;
+    perspective-origin: 100% 100%;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .cube{
+    margin-top: 300px;
+      position: relative;
+      height: 200px;
+      width: 200px;
+      transform-style: preserve-3d;
+      transform: rotateX(20deg) rotateY(20deg) rotateZ(0);
+  }
+  .cube > div {
+      position: absolute;
+      height: 200px;
+      width: 200px;
+      opacity: 0.9;
+      background: linear-gradient(to right , green,blue );
+  }
+  .s1{
+      transform: translateZ(100px);
+  }
+  .s2{
+      transform: rotateY(90deg) translateZ(100px);
+  }
+  .s4{
+      transform: rotateY(90deg) translateZ(100px);
+  }
+   */
+  
+  
+
+/* body{
+    background-color: black;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+@media(min-width : 768px){
+    .container-1{
+        display: flex;
+        align-items: flex-end;
+    }
+    .container-2{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+.container-1 div, .container-2 div{
+    border: 1px #ccc solid;
+    padding: 10px;
+   
+
+}
+.container-2-box{
+    flex-basis: 20%;
+  
+}
+
+.box-1{
+    flex: 5;
+    order: 2;
+}
+.box-2{
+    flex: 1;
+    order: 1;
+}
+.box-3{
+    flex: 1;
+    order: 3;
+} */ 
